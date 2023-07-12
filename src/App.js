@@ -48,7 +48,7 @@ function App() {
       }
     }
 
-    let response = await fetch(`https://api.spotify.com/v1/search?q=${name_of_art}&type=album&limit=10&offset=5`,aritesParameter)
+    let response = await fetch(`https://api.spotify.com/v1/search?q=${name_of_art}&type=album&limit=12&offset=5`,aritesParameter)
     let data = await response.json()
     Setdata(data.albums.items)
     return data_art
