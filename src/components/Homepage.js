@@ -1,7 +1,7 @@
 import React from 'react'
 import music_img from './good.webp'
 
-import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
+//import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
 
 const links = [
   { name: 'Open roles', href: '#' },
